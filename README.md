@@ -1,4 +1,4 @@
-# 保护熊猫论坛系统
+# Zoo_Y
 :yum: 基于 Vue + vuex + vue-router + express + vue material kit 开发的一个动物保护论坛项目
 这是一个课程项目，具体有以下需求：
 1.主页能放视频，有相关熊猫的介绍并且有链接能跳转到论坛界面。
