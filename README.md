@@ -1,11 +1,17 @@
 # Zoo_Y
-:yum: 基于 Vue + vuex + vue-router + express + vue material kit 开发的一个动物保护论坛项目
-这是一个课程项目，具体有以下需求：
-1.主页能放视频，有相关熊猫的介绍并且有链接能跳转到论坛界面。
-2.未登录的用户只能看帖，不能发帖和评论
-3.登录了的用户能发帖和评论
-4.用户发的帖子需要管理员确认后才显示在页面上。
-5.管理员能够删除帖子
+:yum: Based on Vue + VUex + VUE-Router + Express + Vue Material Kit development of an animal protection forum project
+
+This is a course project with the following requirements:
+
+1. The home page can display videos, have the introduction of pandas and link to jump to the forum interface.
+
+2. Users who have not logged in can only view posts, but not post or comment
+
+3. Logged in users can post and comment
+
+4. Posts from users are displayed on the page only after being confirmed by the administrator.
+
+5. The administrator can delete posts
 
 
 ## 预览
