@@ -20,7 +20,7 @@
       </div>
       <div class="comments">
         <div class="top">
-          <span>{{ count }}条回复 · </span>
+          <span>{{ count }} comments · </span>
           <span>{{ nowTime }}</span>
         </div>
         <div
@@ -107,6 +107,7 @@ export default {
         this.title = data.title;
         this.content = data.content;
         this.time = parseTime(data.time);
+        this.nowTime = parseTime(this.nowTime);
       });
     },
   },

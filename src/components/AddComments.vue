@@ -30,8 +30,8 @@ export default {
       addComment(postId, comment).then((res) => {
         if (res.data.code == 0) {
           this.$notify({
-            title: "回复成功！",
-            message: "您成功添加一条回复:)",
+            title: "Reply successfully！",
+            message: "You successfully add a comment:)",
             type: "success",
             offset: 100,
             duration: 2000,
@@ -45,8 +45,8 @@ export default {
           this.comment = "";
         } else {
           this.$notify.error({
-            title: "回复失败！",
-            message: "很抱歉，发生未知错误，bug机器人正在赶来修复的路上~",
+            title: "fail to reply！",
+            message: "Sorry, please log in",
             offset: 100,
             duration: 2000,
           });
